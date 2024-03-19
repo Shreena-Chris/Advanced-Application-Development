@@ -1,0 +1,104 @@
+/* Set background image */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  
+  .background-imagesign {
+    background-image: url('../images/fluid2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6; /* Adjust opacity as needed */
+    z-index: -6;
+  }
+  
+  /* Center the sign-up form */
+  .signup-form {
+    background-color: rgba(255, 255, 255, 0.396); /* Transparent white background */
+    padding:20px 70px 20px 70px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px; /* Increased width */
+    height: auto;
+    max-width: 90%; /* Responsive adjustment */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 3rem;
+  }
+  
+  .signup-heading {
+    margin-top: 20px;
+    font-size: xx-large;
+    color: rgb(106, 39, 151);
+    font-family: "Share Tech Mono", monospace;
+  }
+  
+  /* Style input fields and button */
+  .signup-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  #role.signup-input{
+    width:96.5%;
+  }
+  .signup-input:focus {
+    border-color: #61b1b8; /* Change border color on focus */
+    box-shadow: 0 0 3px #FFDAB9; /* Add a subtle shadow */
+    outline-offset: 0px;
+    outline: none;
+  }
+  
+  .signup-button {
+    width: 35%;
+    padding: 10px;
+    background-color: #8a579e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  /* Style login link */
+.login-link {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #5e5c5c;
+    font-family: "Share Tech Mono", monospace;
+  }
+  
+  .login-text {
+    color: rgb(106, 39, 151);
+    cursor: pointer;
+    font-family: "Share Tech Mono", monospace;
+  }
+  
+  .login-text:hover {
+    text-decoration: underline;
+  }
+  /* Style welcome message */
+.welcome-message {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #666;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: bolder;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .signup-form {
+      width: 80%;
+    }
+  }
+  
