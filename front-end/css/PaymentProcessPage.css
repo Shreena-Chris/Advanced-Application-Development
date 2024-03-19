@@ -1,0 +1,39 @@
+/* PaymentProcessPage.css */
+.paymentProcessContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 8%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: large;
+  }
+  
+  .paymentProcessInput {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+  .paymentProcessSubmit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  
+  
+  .paymentProcessConfirmation {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #8ea386;
+    color:black;
+    border: 1px solid #b0d591;
+    border-radius: 5px;
+  }
+  
