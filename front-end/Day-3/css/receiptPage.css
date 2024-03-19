@@ -1,0 +1,94 @@
+/* SelectedItemsPage.css */
+
+/* Body styles */
+
+  /* Styles for the receipt container */
+  .receipt-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffffff; /* Content background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  }
+  
+  /* Styles for the title */
+  .estimated-price {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: ui-rounded;
+    color: #b880f8; /* Title color */
+  }
+  .totalprice {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: ui-rounded;
+    color: #b880f8; /* Title color */
+  }
+  
+  /* Styles for the list */
+  .receipt-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .receipt-content ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the list items */
+  .receipt-content li {
+    font-size: 1.2rem;
+    color: #666666; /* List item color */
+  }
+  
+  /* Styles for the total price */
+  .receipt-content p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /* Styles for the buttons */
+  .receipt-content button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .receipt-content button:hover {
+    background-color: #c78eed;
+  }
+  
+  /* Styles for the "Proceed" button */
+  .receipt-content button.proceed {
+    background-color: #a56eca; /* Proceed button background color */
+    color: #ffffff; /* Proceed button text color */
+  }
+  
+  /* Hover styles for the buttons */
+  .receipt-content button:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
+  /* SelectedItemsPage.css */
+  
+  /* Styles for the proceed button */
+  .proceed-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #7d4caf; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .proceed-button:hover {
+    background-color: #45a049; /* Darker green */
+  }

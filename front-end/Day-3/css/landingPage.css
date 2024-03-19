@@ -1,0 +1,257 @@
+/* LandingPage.css */
+/* LandingPage.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #ffffff; /* Set your desired background color */
+  }
+  
+  .event-image {
+    margin-top: -2rem;
+    width: 100%; /* Adjust image size */
+    max-height: 950px; /* Set a maximum height for the image */
+    object-fit: cover; /* Maintain aspect ratio */
+    background-attachment: fixed;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateZ(-1px);
+  }
+  
+  .content {
+    text-align: center;
+ 
+    padding-top: 20px; 
+    margin-bottom: 20rem;
+  }
+  .contact{
+    margin-bottom: -300px;
+  }
+  .gallery-text{
+    color:rgb(39, 144, 144);
+    font-family: "Sarpanch", sans-serif;
+    font-size:50px;
+  }
+  .gallery .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .gallery .box-container .box {
+    position: relative;
+    border: 1rem solid rgb(86, 86, 86);
+    border-radius: 0.5rem;
+    height: 25rem;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .gallery .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .gallery .box-container .box:hover img {
+    transform: scale(1.1);
+    filter: grayscale();
+  }
+  
+  .gallery .box-container .box .title {
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    right: 0;
+    background: rgb(86, 86, 86);
+    color: #fff;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .gallery .box-container .box:hover .title {
+    top: 0;
+  }
+  .title{
+    margin-top: 1rem;
+  }
+  .gallery .box-container .box .icons {
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    right: 0;
+    background: rgb(86, 86, 86);
+    padding-top: 1rem;
+    text-align: center;
+  }
+  
+  .gallery .box-container .box:hover .icons {
+    bottom: 0;
+  }
+  
+  .gallery .box-container .box .icons a {
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+    color: #fff;
+  }
+  
+  .gallery .box-container .box .icons a:hover {
+    color: var(--theme-color);
+  }
+  
+  /* Add this CSS to your landingPage.css file */
+
+  .about-image h2 {
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333; /* Change text color */
+    margin-top: 20px; /* Adjust margin as needed */
+   
+  }
+  .about-image {
+    position: relative; /* Ensure the container is positioned */
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: 900px;
+    /* Ensure the image maintains its aspect ratio */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    opacity: 0.7;
+  }
+  .aboutc-image {
+    position: relative; /* Ensure the container is positioned */
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .aboutc-image img {
+    width: 100%;
+    height: 600px;
+    /* Ensure the image maintains its aspect ratio */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    opacity: 0.6;
+  }
+  
+  .about-text {
+    position: absolute; /* Position the text */
+    top: 10%; /* Move the text to the vertical center */
+    left: 50%; /* Move the text to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: #fff; /* Set text color */
+    z-index: 2; /* Ensure text is above the image */
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  .about-text h2 {
+    font-size: 100px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Sarpanch", sans-serif;
+  }
+  .aboutc-text {
+    position: absolute; /* Position the text */
+    top: 40%; /* Move the text to the vertical center */
+    left: 50%; /* Move the text to the horizontal center */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: #fff; /* Set text color */
+    z-index: 2; /* Ensure text is above the image */
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  .aboutc-text h2 {
+    font-size: 100px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+    color: rgb(47, 52, 52);
+    font-family: "Sarpanch", sans-serif;
+  }
+  
+  .about-image p {
+    color:rgb(17, 66, 66);
+    font-size: 25px; /* Adjust font size as needed */
+    line-height: 1.6; /* Increase line height for better readability */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:unset;
+  }
+  .welcome-overview {
+    display: flex;
+    align-items: center;
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .welcome-overview img {
+    width: 40%; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    margin-right: 20px; /* Adjust margin between image and text */
+  }
+  
+  .welcome-overview-content {
+    flex-grow: 1; /* Allow the content to take remaining space */
+  }
+  
+  .welcome-overview h2 {
+    font-size: 35px; /* Adjust font size as needed */
+    color: rgb(39, 144, 144); /* Change text color */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    text-align: center;
+    font-family: "Sarpanch", sans-serif;
+  }
+  
+  .welcome-overview p {
+    font-size: 28px; /* Adjust font size as needed */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: rgb(17, 66, 66); /* Change text color */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  /* serviceCards.css */
+
+.service-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+ 
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  padding: 60px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Two cards in a row with some spacing */
+  margin-bottom: 20px;
+  margin-right: 50px;
+ 
+}
+
+.service-card i {
+  font-size: 70px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: rgb(39, 144, 144);
+}
+
+.service-card p {
+  font-size: 24px;
+  color: #777;
+}
+
